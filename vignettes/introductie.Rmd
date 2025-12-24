@@ -32,8 +32,8 @@ optellen(c(1, 2, 3), 10)
 # Aftrekken
 Met aftrekken() trek je één getal van een ander af:
 ```{r}
-vermenigvuldigen(6, 7)
-vermenigvuldigen(c(1, 2, 3), 5)
+aftrekken(10, 4)
+aftrekken(c(5, 6, 7), 2)
 ```
 
 # Vermenigvuldigen
@@ -49,5 +49,4 @@ Met delen() deel je één getal door een ander:
 delen(20, 5)
 delen(c(10, 20, 30), 2)
 ```
-
 
