@@ -1,0 +1,52 @@
+---
+title: "introductie"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{introductie}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(rekenmachine)
+```
+
+# Introductie
+Het rekenmachine package biedt eenvoudige functies voor basale rekenkundige bewerkingen.
+In dit vignette laten we zien hoe je de functies kunt gebruiken.
+
+# Optellen
+Met optellen() kun je twee getallen of vectoren bij elkaar optellen:
+```{r}
+optellen(2, 3)
+optellen(c(1, 2, 3), 10)
+```
+
+# Aftrekken
+Met aftrekken() trek je één getal van een ander af:
+```{r}
+aftrekken(10, 4)
+aftrekken(c(5, 6, 7), 2)
+```
+
+# Vermenigvuldigen
+Met vermenigvuldigen() vermenigvuldig je twee getallen of vectoren:
+```{r}
+vermenigvuldigen(6, 7)
+vermenigvuldigen(c(1, 2, 3), 5)
+```
+
+# Delen
+Met delen() deel je één getal door een ander:
+```{r}
+delen(20, 5)
+delen(c(10, 20, 30), 2)
+```
+
