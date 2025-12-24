@@ -1,11 +1,10 @@
 Package: rekenmachine
-Title: What the Package Does (One Line, Title Case)
+Title: Rekenmachine Functies voor Optellen, Aftrekken, Vermenigvuldigen en Delen
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Twan", "van der Lee", , "twanvanderlee@proton.me", role = c("aut", "cre"))
+Description: Het pakket 'rekenmachine' biedt eenvoudige functies voor basale rekenkundige bewerkingen zoals optellen, aftrekken, vermenigvuldigen en delen.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3

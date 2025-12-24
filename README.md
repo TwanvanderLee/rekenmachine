@@ -1,0 +1,36 @@
+
+# rekenmachine
+
+Het **rekenmachine** package biedt eenvoudige functies voor basale
+rekenkundige bewerkingen: - Optellen - Aftrekken - Vermenigvuldigen -
+Delen Dit pakket is bedoeld als oefenproject om te leren werken met R en
+packageontwikkeling.
+
+## Installatie
+
+Je kunt het pakket installeren vanaf GitHub met:
+
+``` r
+# Installeer devtools
+install.packages("devtools") 
+# Installeer het rekenmachine package 
+devtools::install_github("TwanvanderLee/rekenmachine")
+```
+
+## Gebruik
+
+``` r
+library(rekenmachine) 
+# Optellen 
+optellen(2, 3) 
+#> [1] 5 
+# Aftrekken 
+aftrekken(10, 4) 
+#> [1] 6
+# Vermenigvuldigen 
+vermenigvuldigen(6, 7) 
+#> [1] 42 
+# Delen 
+delen(20, 5) 
+#> [1] 4
+```
