@@ -24,15 +24,18 @@ devtools::install_github("TwanvanderLee/rekenmachine")
 library(rekenmachine) 
 # Optellen 
 optellen(2, 3) 
-#> [1] 5 
+# [1] 5 
+
 # Aftrekken 
 aftrekken(10, 4) 
-#> [1] 6
+# [1] 6
+
 # Vermenigvuldigen 
 vermenigvuldigen(6, 7) 
-#> [1] 42 
+# [1] 42 
+
 # Delen 
 delen(20, 5) 
-#> [1] 4
+# [1] 4
 ```
 
